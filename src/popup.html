@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script>
+      function download() {
+        console.log("copying");
+        let name = document.getElementById("product-name").innerText;
+        let price = document.getElementById("product-price").innerText;
+        let stock = document.getElementById("product-stock").innerText;
+        let image = document.getElementById("product-img").src;
+        navigator.clipboard.writeText(
+          `${name} ; ${price} ; ${stock} ; ${image}`
+        );
+      }
+    </script>
+    <div class="main">
+      <div id="Container">
+        <p>Url: <a id="product-uri"></a></p>
+
+        <p>Name: <span id="product-name"></span></p>
+        <p>Price: <span id="product-price"></span></p>
+        <p>Stock: <span id="product-stock"></span></p>
+        <img id="product-img" />
+        <p>Image Url: <a id="product-image-uri" target="_blank">Image</a></p>
+        <textarea id="product-copy"></textarea>
+        <button onclick="download()">Copy</button>
+      </div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

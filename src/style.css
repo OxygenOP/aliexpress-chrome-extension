@@ -1,0 +1,11 @@
+.main {
+  min-width: 250px;
+  min-height: 250px;
+}
+#product-img {
+  height: 150px;
+  width: 150px;
+}
+#Container {
+  display: none;
+}

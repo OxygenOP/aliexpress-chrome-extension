@@ -1,0 +1,15 @@
+{
+  "name": "Aliexpress Product Scraper",
+  "version": "1.0",
+  "description": "Scrapes Important Data",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["*://*.aliexpress.com/*"],
+      "js": ["./src/content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "./src/popup.html"
+  }
+}
