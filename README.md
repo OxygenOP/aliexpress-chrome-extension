@@ -7,12 +7,19 @@
 This is a chrome extension that scrapes data from an aliexpress product page
 
 
-#How to run it:
-1: On Chrome goto (Put it in the Search box) chrome://extensions/ 
+# How to run it:
+
+1: On Chrome goto (Put it in the Search box) chrome://extensions/  
+
 2: Toggle on Developer Mode on the top right corner of the page
+
 3: click on load unpacked on the top left corner of the page
-4: navigate to the folder containing the project_files (manifest.json) and click select folder (don't select the source folder select the root folder containing "manifest.json")
+
+4: navigate to the folder containing the project_files (manifest.json) and click select folder (don't select the source folder select the root folder containing 
+"manifest.json")
+
 5: goto aliexpress and open a product page (tested on www.aliexpress.com)
+
 6: open the extension next to the search box and click the get button
 
 
