@@ -9,3 +9,11 @@
 #Container {
   display: none;
 }
+#get-button {
+  margin: 5px;
+  margin-left: auto;
+  width: 200px;
+}
+#product-copy {
+  width: 190px;
+}

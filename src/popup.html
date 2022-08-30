@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <script>
+    <!-- <script>
       function download() {
         console.log("copying");
         let name = document.getElementById("product-name").innerText;
@@ -17,10 +17,10 @@
           `${name} ; ${price} ; ${stock} ; ${image}`
         );
       }
-    </script>
+    </script> -->
     <div class="main">
       <div id="Container">
-        <p>Url: <a id="product-uri"></a></p>
+        <p>Url: <a id="product-uri" target="_blank">Open</a></p>
 
         <p>Name: <span id="product-name"></span></p>
         <p>Price: <span id="product-price"></span></p>
@@ -28,10 +28,11 @@
         <img id="product-img" />
         <p>Image Url: <a id="product-image-uri" target="_blank">Image</a></p>
         <textarea id="product-copy"></textarea>
-        <button onclick="download()">Copy</button>
       </div>
+
+      <button id="get-button">Get</button>
     </div>
 
-    <script src="popup.js"></script>
+    <script src="popup.js" type="text/javascript"></script>
   </body>
 </html>

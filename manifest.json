@@ -3,6 +3,9 @@
   "version": "1.0",
   "description": "Scrapes Important Data",
   "manifest_version": 3,
+
+  "permissions": ["tabs"],
+
   "content_scripts": [
     {
       "matches": ["*://*.aliexpress.com/*"],
