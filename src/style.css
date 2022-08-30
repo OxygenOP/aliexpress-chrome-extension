@@ -12,8 +12,9 @@
 #get-button {
   margin: 5px;
   margin-left: auto;
-  width: 200px;
+  width: 245px;
 }
 #product-copy {
-  width: 190px;
+  width: 245px;
+  height: 150px;
 }
