@@ -1,9 +1,5 @@
 # aliexpress-chrome-extension
 
-![whole page](https://user-images.githubusercontent.com/111586718/187527057-f58c6701-1326-4e3a-89ca-0169b1e72059.png)
-![popup](https://user-images.githubusercontent.com/111586718/187527070-30ff7799-65b1-43cd-be3b-cb2a46bf3e4c.png)
-
-
 This is a chrome extension that scrapes data from an aliexpress product page
 
 
@@ -23,4 +19,6 @@ This is a chrome extension that scrapes data from an aliexpress product page
 6: open the extension next to the search box and click the get button
 
 
-
+# Images
+![whole page](https://user-images.githubusercontent.com/111586718/187527057-f58c6701-1326-4e3a-89ca-0169b1e72059.png)
+![popup](https://user-images.githubusercontent.com/111586718/187527070-30ff7799-65b1-43cd-be3b-cb2a46bf3e4c.png)
